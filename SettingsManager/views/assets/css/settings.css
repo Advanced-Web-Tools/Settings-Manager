@@ -1,0 +1,46 @@
+.settings-page #apply[hidden] {
+    display: none;
+}
+
+.settings-page .settings-panel {
+    width: 100%;
+    max-width: none;
+}
+
+.settings-page .form-label,
+.settings-page h1,
+.settings-page h2 {
+    overflow-wrap: anywhere;
+}
+
+.settings-page .form-control:disabled {
+    opacity: var(--disabled-opacity);
+    cursor: not-allowed;
+}
+
+/* Match ThemeEngine's help topics using Dashboard's shared theme variables. */
+.settings-help-section details {
+    border-top: 1px solid var(--border);
+    padding-block: 16px;
+}
+
+.settings-help-section summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.settings-help-section summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: var(--radius-sm);
+}
+
+.settings-help-answer {
+    padding-top: 12px;
+    overflow-wrap: anywhere;
+}
+
+.settings-help-answer p {
+    margin-top: 0;
+}
