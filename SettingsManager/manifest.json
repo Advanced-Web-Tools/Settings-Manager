@@ -5,7 +5,7 @@
   "maximum_awt_version": null,
   "author": "ElStefanos",
   "type": 1,
-  "system_package": 0,
+  "system_package": 1,
   "description": null,
   "icon": "data/icon/icon.webp",
   "preview_image": null,
